@@ -7,9 +7,9 @@ Inicio
     SiNo
       Si (anio % 4 == 0) 0
          ((anio % 100 != 0)) y (anio % 100 = 0) Entonces
-          Escribir "El año es bisiesto"
+          Escribir "El aÃ±o es bisiesto"
     Si No
-        Escribir "El año no es bisiesto"
+        Escribir "El aÃ±o no es bisiesto"
     Fin Si
 Fin Si
 Fin
@@ -24,12 +24,12 @@ int main() {
 
     cin >> anio;
     if (anio <= 0) {
-        cout << "Ingrese un año positivo" << endl;
+        cout << "Ingrese un aÃ±o positivo" << endl;
     } else {
         if ((anio % 400 == 0) || ((anio % 4 == 0) && (anio % 100 != 0))) {
-            cout << "El año es bisiesto" << endl;
+            cout << "El aÃ±o es bisiesto" << endl;
         } else {
-            cout << "El año no es bisiesto" << endl;
+            cout << "El aÃ±o no es bisiesto" << endl;
         }
     }
     return 0;
